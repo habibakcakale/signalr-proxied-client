@@ -1,0 +1,26 @@
+{
+  "name": "sign-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:watch": "tsc --watch",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@microsoft/signalr": "^3.1.5",
+    "@types/ws": "^7.2.5",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "@types/request": "^2.48.5",
+    "https-proxy-agent": "^5.0.0",
+    "typescript": "^3.9.5",
+    "ws": "^7.3.0"
+  }
+}
